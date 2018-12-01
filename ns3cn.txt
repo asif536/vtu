@@ -279,7 +279,7 @@ int main(int argc, char *argv[])
     return 0;
 }
 
-for graph ploting:
+/*for graph ploting:
  
 ./waf --run progname > cwnd.dat 2>&1
 gnuplot
@@ -287,7 +287,7 @@ gnuplot
    set output "cwnd.png"
    plot "cwnd.dat" using 1:2 title 'Congestion Window' with linespoints
    exit
-
+*/
 <---------------------------3rd program  end-------------------->
 
 
