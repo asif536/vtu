@@ -9,12 +9,6 @@ Set the queue size, vary the bandwidth and find the number of packets dropped.
 #include "ns3/point-to-point-module.h"
 #include "ns3/applications-module.h"
 
-// Network topology
-//
-//       10.1.1.0       10.1.2.0
-// n0 -------------- n1..........n2
-//    point-to-point
-//
 
 using namespace ns3;
 
